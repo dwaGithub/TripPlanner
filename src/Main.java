@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        Scanner test = new Scanner(System.in);
         ArrayList<SkiTrip> skiList = new ArrayList<>();
         ArrayList<BeachTrip> beachList = new ArrayList<>();
         menu(input, skiList, beachList);
